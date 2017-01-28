@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dajensen/moscahub/issues"
   },
-  "homepage": "https://github.com/dajensen/moscahub#readme"
+  "homepage": "https://github.com/dajensen/moscahub#readme",
+  "dependencies": {
+    "mosca": "^2.2.0"
+  }
 }
