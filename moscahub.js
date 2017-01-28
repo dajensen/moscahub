@@ -1,5 +1,3 @@
-// I have removed the test comment.
-
 var mosca = require('mosca');
 var http = require("http");
 var connect = require("connect")
