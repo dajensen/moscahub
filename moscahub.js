@@ -1,3 +1,5 @@
+// I hope this will end up on the server!
+
 var mosca = require('mosca');
 var http = require("http");
 var connect = require("connect")
