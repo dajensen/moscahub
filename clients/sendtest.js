@@ -1,6 +1,6 @@
 var mqtt = require('mqtt')
 
-var client  = mqtt.connect('mqtt://zerohub:1883')
+var client  = mqtt.connect('wss://djroboplant.site:8083', {username: 'walter', password: 'isfremides'})
  
 
 client.on('connect', function () {
@@ -10,7 +10,9 @@ client.on('connect', function () {
     ]
   }
 
-  client.publish('plid/pattern', JSON.stringify(newcolor))
+  client.publish('test', JSON.stringify(newcolor))
+  client.publish('test', 'This is another test')
+  client.publish('test', 'And another')
   client.end()
 })
  
